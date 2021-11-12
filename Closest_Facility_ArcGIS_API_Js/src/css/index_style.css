@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'barlow-semibold';
+    src: url('../fonts/BarlowCondensed-SemiBold.woff2') format('woff2'),
+        url('../fonts/BarlowCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-montserrat-medium {
+    font-family: 'montserrat-medium' !important;
+}
+
+
+.font-barlow-semibold {
+    font-family: 'barlow-semibold' !important;
+}
